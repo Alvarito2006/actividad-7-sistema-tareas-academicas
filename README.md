@@ -1,193 +1,230 @@
 # Actividad 7 - Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas
 
-## Integrantes del equipo
-- Alvaro
-- Diego
-- Nora
-- Angee
+## Carátula
 
-## Descripción general
-Este repositorio contiene el desarrollo de la **Actividad 7**, en la cual se trabajó de manera colaborativa y remota en la propuesta del **Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas**.
+**Universidad de San Carlos de Guatemala**  
+**Facultad de Ingeniería**  
+**Escuela de Ingeniería en Ciencias y Sistemas**
 
-El propósito del mini-proyecto es plantear una solución que ayude a los estudiantes a organizar sus actividades académicas, asignar prioridades, visualizar su progreso y mejorar la administración de sus tareas pendientes.
+**Curso:** LABORATORIO Comunicación Asertiva  
+**Docente:** AUX. Kevin Josué Santos  
+
+**Actividad:** Actividad práctica 7  
+**Tema:** Simulación de trabajo en un equipo remoto  
+**Mini-Proyecto seleccionado:** Mini-Proyecto 1 - Sistema de Gestión de Tareas Académicas  
+
+### Integrantes del equipo
+- **Alvaro Moisés Girón Morales** - **Carné:** 202501955
+- **Diego Otto Eduardo Rodas Aceytuno** - **Carné:** 202505251
+- **Nora Anelisse Recinos Estrada** - **Carné:** 202503920
+- **Angee Ximena Chojolán Oliva** - **Carné:** 202505018
 
 ---
 
-## 1. Problema a resolver
-Muchos estudiantes administran sus tareas académicas de manera desordenada, utilizando distintos medios como cuadernos, mensajes, capturas de pantalla o recordatorios informales. Esto provoca problemas como:
+## 1. Introducción
+
+En esta actividad se desarrolló una simulación de trabajo colaborativo en un entorno remoto. Como equipo, se eligió el **Mini-Proyecto 1: Sistema de Gestión de Tareas Académicas**, con el propósito de proponer una solución básica que permita organizar actividades académicas, asignar prioridades y visualizar el progreso de los estudiantes.
+
+Además del contenido del proyecto, se trabajó aplicando principios de comunicación asertiva, organización grupal, distribución de roles y uso de herramientas colaborativas, documentando el proceso dentro de este repositorio.
+
+---
+
+## 2. Descripción general del proyecto
+
+El proyecto consiste en la propuesta de un sistema orientado a estudiantes, diseñado para mejorar la organización de tareas académicas y reducir el riesgo de olvidar actividades importantes. Este sistema busca centralizar la información relacionada con tareas, fechas de entrega, prioridades y avance, de manera que el usuario pueda administrar mejor su carga académica.
+
+---
+
+## 3. Problema a resolver
+
+Muchos estudiantes administran sus responsabilidades académicas de manera desordenada, utilizando diferentes medios como cuadernos, mensajes de chat, recordatorios aislados o simplemente la memoria. Esto puede generar diversos problemas, entre ellos:
 
 - olvido de tareas importantes,
 - mala priorización de actividades,
 - incumplimiento de fechas de entrega,
-- falta de claridad sobre el avance académico.
+- desorganización del tiempo,
+- falta de visibilidad sobre el progreso general.
 
-Ante esta situación, se propone un **Sistema de Gestión de Tareas Académicas** que permita centralizar la información y ayudar al estudiante a tener mejor control de sus responsabilidades.
-
----
-
-## 2. Objetivo del sistema
-Desarrollar la propuesta de un sistema que permita a los estudiantes registrar, organizar y dar seguimiento a sus tareas académicas de manera sencilla, visual y eficiente.
+Ante esta situación, se propone un **Sistema de Gestión de Tareas Académicas** que permita registrar, organizar y dar seguimiento a las actividades de forma clara y eficiente.
 
 ---
 
-## 3. Funcionalidades principales
-Las funcionalidades propuestas para el sistema son las siguientes:
+## 4. Objetivo del sistema
 
-### 3.1 Crear tareas académicas
-El usuario podrá registrar nuevas tareas, como proyectos, investigaciones, exposiciones, laboratorios, ejercicios o exámenes.
+Proponer un sistema básico que permita a los estudiantes registrar tareas académicas, asignarles prioridad, visualizar su estado de avance y mejorar la organización de sus actividades.
 
-### 3.2 Asignar prioridad
-Cada tarea podrá clasificarse según su nivel de importancia:
+---
+
+## 5. Funcionalidades principales
+
+A continuación, se presentan las funcionalidades principales del sistema propuesto:
+
+### 5.1 Registro de tareas académicas
+El sistema permitirá ingresar nuevas tareas, como proyectos, laboratorios, investigaciones, ejercicios, exposiciones o exámenes.
+
+### 5.2 Asignación de prioridad
+Cada tarea podrá clasificarse según su nivel de prioridad:
 - Alta
 - Media
 - Baja
 
-Esto permitirá al estudiante identificar rápidamente cuáles actividades requieren mayor atención.
+Esto ayudará al estudiante a identificar cuáles actividades deben atenderse primero.
 
-### 3.3 Definir fecha de entrega
-Cada tarea tendrá una fecha límite para facilitar la planificación y evitar retrasos.
+### 5.3 Fecha de entrega
+Cada tarea tendrá asociada una fecha límite, con el fin de facilitar la planificación del tiempo y reducir retrasos.
 
-### 3.4 Actualizar estado de avance
-El sistema permitirá cambiar el estado de cada tarea conforme avance su desarrollo:
+### 5.4 Actualización del estado de avance
+El sistema permitirá modificar el estado de cada tarea de acuerdo con su progreso:
 - Pendiente
 - En progreso
 - Completada
 
-### 3.5 Visualizar progreso general
-El usuario podrá observar el avance de sus tareas mediante una vista general que muestre:
-- tareas pendientes,
-- tareas en progreso,
-- tareas completadas.
+### 5.5 Visualización del progreso general
+El usuario podrá consultar un resumen general de sus tareas, identificando cuántas están pendientes, cuántas están en proceso y cuántas han sido finalizadas.
 
 ---
 
-## 4. Roles de usuario dentro del sistema
-Para este mini-proyecto se plantean los siguientes roles:
+## 6. Roles del sistema
 
-### 4.1 Estudiante
+Para este mini-proyecto se plantean los siguientes tipos de usuario dentro del sistema:
+
+### 6.1 Estudiante
 Es el usuario principal del sistema. Puede:
-- crear tareas,
-- editar tareas,
-- asignar prioridad,
+- registrar tareas,
+- editar información de tareas,
+- asignar prioridades,
 - actualizar estados,
-- revisar su progreso.
+- consultar el progreso general.
 
-### 4.2 Administrador
-Es el usuario encargado de gestionar el funcionamiento general del sistema. Puede:
-- administrar usuarios,
-- supervisar la estructura del sistema,
-- mantener la organización de la plataforma.
+### 6.2 Administrador
+Es el usuario encargado de supervisar el funcionamiento general del sistema. Puede:
+- gestionar usuarios,
+- administrar configuraciones,
+- mantener el orden de la plataforma.
 
-### 4.3 Docente (opcional)
-En una versión ampliada del sistema, el docente podría:
+### 6.3 Docente (opcional)
+En una versión más amplia del sistema, el docente podría:
 - publicar actividades,
-- revisar avances generales,
-- verificar cumplimiento de entregas.
+- revisar avances,
+- dar seguimiento al cumplimiento de tareas.
 
 ---
 
-## 5. Flujo de uso del sistema
-El funcionamiento general del sistema sería el siguiente:
+## 7. Flujo de uso del sistema
 
-1. El estudiante inicia sesión en el sistema.
+El flujo general de funcionamiento del sistema sería el siguiente:
+
+1. El estudiante ingresa al sistema.
 2. Registra una nueva tarea académica.
 3. Asigna una prioridad a la tarea.
-4. Establece una fecha de entrega.
-5. La tarea se almacena en la lista general.
+4. Define la fecha de entrega.
+5. La tarea se guarda en la lista general.
 6. El estudiante actualiza el estado conforme avanza.
-7. El sistema muestra el progreso total de las actividades registradas.
+7. El sistema muestra el progreso general del usuario.
 
 ---
 
-## 6. Organización del equipo
-Para desarrollar esta actividad, el equipo se organizó asignando roles específicos para mejorar la comunicación y el trabajo colaborativo.
+## 8. Organización del equipo
+
+Para el desarrollo de la actividad, el equipo se organizó asignando roles específicos con el fin de distribuir responsabilidades y trabajar de manera ordenada.
 
 ### Roles asignados
-- **Alvaro** - Moderador  
-  Coordinó la participación del equipo, organizó las ideas principales y supervisó el avance general.
+- **Alvaro Moisés Girón Morales** - **Moderador**  
+  Coordinó la actividad, propuso el mini-proyecto a desarrollar, organizó la participación de los integrantes y supervisó la integración final del trabajo.
 
-- **Diego** - Timekeeper  
-  Controló el tiempo asignado a cada fase de la actividad y recordó los tiempos de entrega internos.
+- **Diego Otto Eduardo Rodas Aceytuno** - **Timekeeper**  
+  Apoyó en el control del tiempo y en el seguimiento de las tareas para cumplir con el avance del trabajo.
 
-- **Nora** - Notetaker  
-  Registró los acuerdos, ideas principales y aportes del equipo en el documento compartido.
+- **Nora Anelisse Recinos Estrada** - **Notetaker**  
+  Registró los acuerdos y apoyó en la comunicación con los integrantes del equipo.
 
-- **Angee** - Apoyo en issues y consolidación  
-  Se encargó de apoyar en la organización de tareas dentro del repositorio y de consolidar el documento final.
+- **Angee Ximena Chojolán Oliva** - **Apoyo en consolidación y organización**  
+  Confirmó participación en el equipo y apoyó en la organización general del trabajo y revisión del contenido.
 
 ---
 
-## 7. Estrategia de trabajo colaborativo
-Para desarrollar la actividad, el equipo siguió esta metodología:
+## 9. Estrategia de trabajo colaborativo
+
+El equipo siguió una estrategia sencilla de organización:
 
 1. Selección del mini-proyecto.
-2. Asignación de roles.
-3. División de tareas por apartados.
-4. Redacción de contenido en documento Markdown.
-5. Revisión grupal del contenido.
-6. Consolidación final del trabajo en el repositorio.
+2. Confirmación de integrantes.
+3. Comunicación por chat para coordinar el trabajo.
+4. Distribución de roles.
+5. Redacción del documento en formato Markdown.
+6. Organización de evidencias en carpeta de capturas.
+7. Consolidación final del trabajo dentro del repositorio.
 
-Además, se procuró mantener una comunicación respetuosa, clara y organizada, aplicando principios de netiqueta y colaboración efectiva.
-
----
-
-## 8. Gestión de tareas en el repositorio
-Para organizar el trabajo del equipo, se propusieron las siguientes tareas:
-
-- Definir el problema del sistema.
-- Redactar funcionalidades principales.
-- Establecer roles de usuario.
-- Elaborar el flujo de uso.
-- Consolidar el documento final.
-- Revisar ortografía, coherencia y formato.
-
-### Ejemplo de issues propuestos
-- Issue #1: Definición del problema y objetivo
-- Issue #2: Redacción de funcionalidades
-- Issue #3: Roles del sistema y flujo de uso
-- Issue #4: Consolidación del README final
-- Issue #5: Revisión general y cierre
+Durante la actividad se buscó mantener una comunicación clara, respetuosa y directa, en concordancia con el enfoque de comunicación asertiva del curso.
 
 ---
 
-## 9. Resolución de problemas durante la actividad
-Como parte de la simulación de trabajo remoto, se contempló un escenario en el que un integrante perdió conexión temporalmente.
+## 10. Herramientas utilizadas
 
-### Procedimiento aplicado
-Durante la actividad, uno de los integrantes presentó una desconexión momentánea. Para evitar retrasos:
+Para el desarrollo de la actividad se utilizaron las siguientes herramientas:
 
-- el moderador reorganizó las tareas,
-- otro integrante asumió temporalmente parte del trabajo pendiente,
-- el equipo continuó avanzando en la redacción,
-- al restablecer la conexión, el integrante se reincorporó para revisar y validar el documento final.
-
-Esta acción permitió mantener la continuidad del trabajo y demostró capacidad de adaptación ante problemas de comunicación.
+- Repositorio en GitHub
+- Archivo Markdown (`README.md`)
+- Archivo Markdown de evidencias (`evidencias.md`)
+- Capturas de comunicación por chat
+- Carpeta de evidencias dentro del repositorio
 
 ---
 
-## 10. Evidencias de trabajo colaborativo
-Como evidencias del desarrollo de la actividad, se consideran:
+## 11. Gestión de tareas
 
-- registro de comunicación entre los integrantes,
-- distribución de tareas,
-- issues o tareas planteadas en el repositorio,
-- documento final consolidado en formato Markdown.
+Para organizar el trabajo, se consideraron las siguientes tareas principales:
 
----
-
-## 11. Conclusión
-El **Sistema de Gestión de Tareas Académicas** representa una solución útil para mejorar la organización estudiantil, facilitar el seguimiento de actividades y reducir el riesgo de olvidar tareas importantes.
-
-A través de esta actividad, el equipo también fortaleció habilidades de comunicación, organización, colaboración remota y resolución de problemas, aplicando una metodología estructurada de trabajo en equipo.
+- Definir el problema del sistema
+- Redactar las funcionalidades principales
+- Definir roles del sistema
+- Describir el flujo de uso
+- Consolidar el documento final
+- Adjuntar evidencias de comunicación
+- Revisar redacción, estructura y formato
 
 ---
 
-## 12. Repositorio del proyecto
-En este repositorio se documenta el desarrollo de la actividad y la propuesta final del mini-proyecto.
+## 12. Situación simulada y resolución de problemas
+
+Como parte de la dinámica del trabajo remoto, se contempló la posibilidad de una dificultad de comunicación o falta de contacto directo con un integrante del equipo. En este caso, se evidenció que no todos los miembros tenían contacto directo entre sí, por lo que fue necesario apoyarse en otro integrante para establecer comunicación y confirmar la participación del grupo.
+
+Para resolver esta situación:
+- se contactó inicialmente a Nora para coordinar la integración del equipo,
+- Nora apoyó avisando a Angee,
+- posteriormente se compartió el repositorio con Diego,
+- se consolidó la organización mediante mensajes y confirmaciones en chat.
+
+Esto permitió mantener la continuidad del trabajo, distribuir responsabilidades y asegurar la participación del equipo.
 
 ---
 
-## 13. Estado del proyecto
-Actividad completada  
-Documento consolidado en Markdown  
-Trabajo colaborativo organizado por roles
+## 13. Evidencias del trabajo colaborativo
+
+Las evidencias del proceso realizado se encuentran documentadas en el archivo `evidencias.md` y en la carpeta de capturas del repositorio.
+
+Entre las evidencias incluidas se encuentran:
+- comunicación inicial con integrantes,
+- confirmación del equipo,
+- selección del mini-proyecto,
+- organización del trabajo,
+- carpeta de capturas de chat.
+
+---
+
+## 14. Conclusión
+
+El **Sistema de Gestión de Tareas Académicas** representa una propuesta útil para mejorar la organización de estudiantes en el ámbito académico, permitiendo registrar actividades, establecer prioridades y dar seguimiento al progreso.
+
+Asimismo, esta actividad permitió poner en práctica habilidades de comunicación, coordinación, organización y trabajo colaborativo en un entorno remoto simulado, fortaleciendo la responsabilidad individual y colectiva del equipo.
+
+---
+
+## 15. Estado del proyecto
+
+Mini-proyecto seleccionado  
+Integrantes confirmados  
+Roles asignados  
+Documento principal elaborado en Markdown  
+Evidencias organizadas dentro del repositorio  
+Actividad lista para entrega
