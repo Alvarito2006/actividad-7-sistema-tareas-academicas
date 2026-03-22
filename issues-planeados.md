@@ -8,7 +8,7 @@ Redactar el problema principal que busca resolver el sistema y establecer el obj
 
 **Responsable sugerido:** Alvaro  
 **Estado:** Completado
-<img width="1919" height="884" alt="integracion_1" src="https://github.com/user-attachments/assets/a2bcfbda-4943-4533-8245-7880d61bce90" />
+<img width="1919" height="899" alt="problema_2" src="https://github.com/user-attachments/assets/e25778c3-5614-4b50-bf85-2a3ac084ffe5" />
 
 ---
 
@@ -18,7 +18,8 @@ Definir las funcionalidades principales del sistema, incluyendo registro de tare
 
 **Responsable sugerido:** Diego  
 **Estado:** Completado
-<img width="1919" height="899" alt="problema_2" src="https://github.com/user-attachments/assets/e25778c3-5614-4b50-bf85-2a3ac084ffe5" />
+<img width="1919" height="884" alt="integracion_1" src="https://github.com/user-attachments/assets/a2bcfbda-4943-4533-8245-7880d61bce90" />
+
 
 ---
 
