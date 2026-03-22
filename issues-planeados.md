@@ -18,7 +18,8 @@ Definir las funcionalidades principales del sistema, incluyendo registro de tare
 
 **Responsable sugerido:** Diego  
 **Estado:** Completado
-<img width="1919" height="884" alt="integracion_1" src="https://github.com/user-attachments/assets/a2bcfbda-4943-4533-8245-7880d61bce90" />
+<img width="1919" height="916" alt="definicion_3" src="https://github.com/user-attachments/assets/164e5c52-8a72-481c-9053-cc4d8c317b3b" />
+
 
 
 ---
@@ -29,7 +30,7 @@ Establecer los tipos de usuario que interactúan con el sistema, indicando sus f
 
 **Responsable sugerido:** Nora  
 **Estado:** Completado
-<img width="1919" height="916" alt="definicion_3" src="https://github.com/user-attachments/assets/164e5c52-8a72-481c-9053-cc4d8c317b3b" />
+<img width="1909" height="893" alt="roles_4" src="https://github.com/user-attachments/assets/27f87ccf-e817-4440-90d6-519fa3212281" />
 
 ---
 
@@ -39,7 +40,7 @@ Explicar paso a paso cómo funcionaría el sistema desde que el estudiante ingre
 
 **Responsable sugerido:** Angee  
 **Estado:** Completado
-<img width="1909" height="893" alt="roles_4" src="https://github.com/user-attachments/assets/27f87ccf-e817-4440-90d6-519fa3212281" />
+<img width="1917" height="884" alt="flujo_5" src="https://github.com/user-attachments/assets/982c7c70-3e1e-4f9a-ac9f-d6ed7c55ee27" />
 
 ---
 
@@ -49,4 +50,4 @@ Unificar todo el contenido en el archivo `README.md`, revisar redacción, cohere
 
 **Responsable sugerido:** Todo el equipo  
 **Estado:** Completado
-<img width="1917" height="884" alt="flujo_5" src="https://github.com/user-attachments/assets/982c7c70-3e1e-4f9a-ac9f-d6ed7c55ee27" />
+<img width="1919" height="884" alt="integracion_1" src="https://github.com/user-attachments/assets/a2bcfbda-4943-4533-8245-7880d61bce90" />
